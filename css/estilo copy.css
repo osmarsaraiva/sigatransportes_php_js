@@ -1,0 +1,54 @@
+.busca,
+.menu-departamentos {
+  background-color: #dcdcdc;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 10px;
+  width: 230px;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+  margin: 10px;
+}
+
+.menu-departamentos li {
+  background-color: rgb(76, 110, 202);
+  margin-bottom: 1px;
+  padding: 5px 10px;
+}
+
+.menu-departamentos a {
+  color: #abc72f;
+  text-decoration: none;
+}
+
+Na busca, coloque o tamanho do campo de texto para melhor encaixar no design e use seletores de atributo do CSS para isso (veremos mais desses seletores depois no curso).
+
+.busca input[type=search] {
+    width: 170px;
+}
+
+.busca input[type=search] {
+    width: 170px;
+}
+
+.busca,
+.menu-departamentos {
+    float: left;
+}
+
+.menu-departamentos {
+    clear: left;
+}
+
+.destaque {
+    margin-top: 10px;
+  }
+ 
+  .menu-departamentos {
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+ 
